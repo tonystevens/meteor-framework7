@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tonystevens:meteor-framework7',
-  version: '1.1.0',
+  version: '1.2.0',
   summary: 'Meteor wrapper for Framework7 (v1.6.0).',
   git: 'https://github.com/tonystevens/meteor-framework7.git',
   documentation: 'README.md'
