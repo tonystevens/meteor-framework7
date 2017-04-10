@@ -8,26 +8,26 @@ Package.describe({
 
 Package.onUse(function(api) {
 
-  api.addFiles('framework7/dist/js/framework7.min.js', 'client');
+  api.addFiles('Framework7/dist/js/framework7.min.js', 'client');
 
   api.addAssets([
-    'framework7/dist/css/framework7.ios.colors.css',
-    'framework7/dist/css/framework7.ios.colors.min.css',
-    'framework7/dist/css/framework7.ios.css',
-    'framework7/dist/css/framework7.ios.min.css',
-    'framework7/dist/css/framework7.ios.rtl.css',
-    'framework7/dist/css/framework7.ios.rtl.min.css',
-    'framework7/dist/css/framework7.material.colors.css',
-    'framework7/dist/css/framework7.material.colors.min.css',
-    'framework7/dist/css/framework7.material.css',
-    'framework7/dist/css/framework7.material.min.css',
-    'framework7/dist/css/framework7.material.rtl.css',
-    'framework7/dist/css/framework7.material.rtl.min.css'
+    'Framework7/dist/css/framework7.ios.colors.css',
+    'Framework7/dist/css/framework7.ios.colors.min.css',
+    'Framework7/dist/css/framework7.ios.css',
+    'Framework7/dist/css/framework7.ios.min.css',
+    'Framework7/dist/css/framework7.ios.rtl.css',
+    'Framework7/dist/css/framework7.ios.rtl.min.css',
+    'Framework7/dist/css/framework7.material.colors.css',
+    'Framework7/dist/css/framework7.material.colors.min.css',
+    'Framework7/dist/css/framework7.material.css',
+    'Framework7/dist/css/framework7.material.min.css',
+    'Framework7/dist/css/framework7.material.rtl.css',
+    'Framework7/dist/css/framework7.material.rtl.min.css'
   ], 'client');
 
   api.addAssets([
-    'framework7/dist/img/i-f7-ios.png',
-    'framework7/dist/img/i-f7-material.png'
+    'Framework7/dist/img/i-f7-ios.png',
+    'Framework7/dist/img/i-f7-material.png'
     ], 'client');
 
 });
