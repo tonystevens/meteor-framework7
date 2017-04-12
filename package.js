@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tonystevens:meteor-framework7',
-  version: '1.2.0',
+  version: '1.3.0',
   summary: 'Meteor wrapper for Framework7 (v1.6.0).',
   git: 'https://github.com/tonystevens/meteor-framework7.git',
   documentation: 'README.md'
@@ -23,11 +23,6 @@ Package.onUse(function(api) {
     'Framework7/dist/css/framework7.material.min.css',
     'Framework7/dist/css/framework7.material.rtl.css',
     'Framework7/dist/css/framework7.material.rtl.min.css',
-    'icons/css/framework7-icons.css',
-    'icons/fonts/Framework7Icons-Regular.eot',
-    'icons/fonts/Framework7Icons-Regular.ttf',
-    'icons/fonts/Framework7Icons-Regular.woff',
-    'icons/fonts/Framework7Icons-Regular.woff2',
   ], 'client');
 
   api.addAssets([
